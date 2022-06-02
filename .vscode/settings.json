@@ -17,5 +17,5 @@
         "last 2 versions"
     ],
     // port na którym pracuje nasz kompiler
-    "liveServer.settings.port": 5502
+    "liveServer.settings.port": 5503
 }

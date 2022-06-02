@@ -693,7 +693,10 @@ html {
 /* End of Footer */
 
 /* Responsive */
-@media (max-width: 1800px) {
+@media (max-width: 1900px) {
+  .banner{
+    top: 10%;
+  }
   .video-wrapper {
     width: 90rem;
     height: 45rem;
