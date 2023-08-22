@@ -12,7 +12,7 @@
 html {
   scroll-behavior: smooth;
 }
-.container{
+.container {
   width: 100%;
 }
 /* End of Common Styles */
@@ -62,7 +62,7 @@ html {
   color: #9e0e09;
   font-family: "MADE Soulmaze";
 }
-
+/* Hamburger menu */
 .menu {
   width: 4rem;
   height: 4rem;
@@ -133,14 +133,14 @@ html {
 .nav-link:hover {
   color: #9e0e09;
 }
-.banner-paragraph{
+.banner-paragraph {
   opacity: 0.7 !important;
 }
 /*  End of Navbar */
 
 /* Section 1 */
 .section-1 {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: url(../../img/mental-health-bg.jpg) no-repeat;
   background-size: cover;
@@ -700,8 +700,8 @@ html {
   html {
     font-size: 57%;
   }
-  
-  .banner{
+
+  .banner {
     top: 10%;
   }
 
@@ -724,7 +724,7 @@ html {
   .section-2-paragraph {
     width: 85rem;
     right: 5rem;
-}
+  }
 }
 @media (max-width: 1650px) {
   html {
@@ -741,9 +741,7 @@ html {
     width: 85rem;
     right: 5rem;
     /* Poniżej zmiany */
-
   }
- 
 }
 
 @media (max-width: 1500px) {
@@ -764,7 +762,6 @@ html {
   .banner-paragraph {
     width: 45rem;
     font-size: 3rem;
-  
   }
 
   .section-2,
@@ -788,8 +785,8 @@ html {
     left: 50%;
     transform: translateX(-50%);
     width: 80rem;
-      /* add */
-      bottom: 18rem;
+    /* add */
+    bottom: 18rem;
   }
 
   .section-3 {
@@ -841,6 +838,9 @@ html {
   html {
     font-size: 35%;
   }
+  .section-1 {
+    background-position: 0 60%;
+  }
 
   .section-2 {
     height: 100vh;
@@ -863,6 +863,9 @@ html {
 @media (max-width: 500px) {
   html {
     font-size: 30%;
+  }
+  .section-1 {
+    background-position: 25% 75%;
   }
 
   .banner-heading span {
